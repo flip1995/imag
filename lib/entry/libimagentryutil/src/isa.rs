@@ -79,7 +79,7 @@ impl Is for ::libimagstore::store::Entry {
 
         match self.get_header().read_bool(field).map_err(Error::from)? {
             Some(b) => Ok(b),
-            None    => Err(format_err!("Field {} not available", field)),
+            None    => Ok(false),
         }
     }
 
