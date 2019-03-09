@@ -76,7 +76,7 @@ impl<'a> Iterator for CategoryNameIter<'a> {
                                 .ok_or_else(|| Error::from(err_msg("Store read error")))
                         };
 
-                    return Some(func(&self.0))
+                        return Some(func(&self.0))
                     }
                 },
             } // else continue
