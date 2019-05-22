@@ -1,6 +1,6 @@
 [package]
 name = "libimagtodo"
-version = "0.9.2"
+version = "0.9.3"
 authors = ["mario <mario-krehl@gmx.de>"]
 
 description = "Library for the imag core distribution"
@@ -28,5 +28,5 @@ log = "0.4.0"
 serde_json = "1"
 failure = "0.1"
 
-libimagstore = { version = "0.9.1", path = "../../../lib/core/libimagstore" }
-libimagerror = { version = "0.9.1", path = "../../../lib/core/libimagerror" }
+libimagstore = { version = "0.9.3", path = "../../../lib/core/libimagstore" }
+libimagerror = { version = "0.9.3", path = "../../../lib/core/libimagerror" }

@@ -1,6 +1,6 @@
 [package]
 name = "libimagnotification"
-version = "0.9.2"
+version = "0.9.3"
 authors = ["Matthias Beyer <mail@beyermatthias.de>"]
 
 description = "Library for the imag core distribution"
@@ -24,5 +24,5 @@ notify-rust    = "3.4.2"
 failure        = "0.1"
 failure_derive = "0.1"
 
-libimagerror       = { version = "0.9.1", path = "../../../lib/core/libimagerror" }
+libimagerror       = { version = "0.9.3", path = "../../../lib/core/libimagerror" }
 

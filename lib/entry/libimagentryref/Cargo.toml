@@ -1,6 +1,6 @@
 [package]
 name = "libimagentryref"
-version = "0.9.2"
+version = "0.9.3"
 authors = ["Matthias Beyer <mail@beyermatthias.de>"]
 
 description = "Library for the imag core distribution"
@@ -30,9 +30,9 @@ sha2 = { version = "0.7", optional = true }
 sha3 = { version = "0.7", optional = true }
 hex = { version = "0.3", optional = true }
 
-libimagstore     = { version = "0.9.1", path = "../../../lib/core/libimagstore" }
-libimagerror     = { version = "0.9.1", path = "../../../lib/core/libimagerror" }
-libimagentryutil = { version = "0.9.1", path = "../../../lib/entry/libimagentryutil" }
+libimagstore     = { version = "0.9.3", path = "../../../lib/core/libimagstore" }
+libimagerror     = { version = "0.9.3", path = "../../../lib/core/libimagerror" }
+libimagentryutil = { version = "0.9.3", path = "../../../lib/entry/libimagentryutil" }
 
 [features]
 default             = []

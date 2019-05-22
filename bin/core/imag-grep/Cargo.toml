@@ -1,6 +1,6 @@
 [package]
 name = "imag-grep"
-version = "0.9.2"
+version = "0.9.3"
 authors = ["Matthias Beyer <mail@beyermatthias.de>"]
 
 description = "Part of the imag core distribution: imag-grep command"
@@ -23,9 +23,9 @@ maintenance                       = { status     = "actively-developed" }
 log  = "0.4"
 regex = "1"
 
-libimagstore     = { version = "0.9.1", path = "../../../lib/core/libimagstore" }
-libimagrt        = { version = "0.9.1", path = "../../../lib/core/libimagrt" }
-libimagerror     = { version = "0.9.1", path = "../../../lib/core/libimagerror" }
+libimagstore     = { version = "0.9.3", path = "../../../lib/core/libimagstore" }
+libimagrt        = { version = "0.9.3", path = "../../../lib/core/libimagrt" }
+libimagerror     = { version = "0.9.3", path = "../../../lib/core/libimagerror" }
 
 [dependencies.clap]
 version = "^2.29"

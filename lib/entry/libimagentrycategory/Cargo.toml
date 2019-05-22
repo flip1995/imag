@@ -1,6 +1,6 @@
 [package]
 name = "libimagentrycategory"
-version = "0.9.2"
+version = "0.9.3"
 authors = ["Matthias Beyer <mail@beyermatthias.de>"]
 
 description = "Library for the imag core distribution"
@@ -25,11 +25,11 @@ toml       = "0.4"
 toml-query = "0.8"
 failure    = "0.1"
 
-libimagerror     = { version = "0.9.1", path = "../../../lib/core/libimagerror" }
-libimagstore     = { version = "0.9.1", path = "../../../lib/core/libimagstore" }
-libimagutil      = { version = "0.9.1", path = "../../../lib/etc/libimagutil" }
-libimagentryutil = { version = "0.9.1", path = "../../../lib/entry/libimagentryutil" }
-libimagentrylink = { version = "0.9.1", path = "../../../lib/entry/libimagentrylink" }
+libimagerror     = { version = "0.9.3", path = "../../../lib/core/libimagerror" }
+libimagstore     = { version = "0.9.3", path = "../../../lib/core/libimagstore" }
+libimagutil      = { version = "0.9.3", path = "../../../lib/etc/libimagutil" }
+libimagentryutil = { version = "0.9.3", path = "../../../lib/entry/libimagentryutil" }
+libimagentrylink = { version = "0.9.3", path = "../../../lib/entry/libimagentrylink" }
 
 [dev-dependencies]
 env_logger = "0.5"
